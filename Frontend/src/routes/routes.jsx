@@ -8,8 +8,6 @@ import customizePC from '../pages/customizePC'
 import prebuiltPC from '../pages/prebuiltPC';
 import CPU from '../pages/CPU';
 import loginPage from "../pages/loginPage";
-import signUpPage from "../pages/signUpPage";
-import Case from "../pages/Case"
 
 const routes = [
     {
@@ -51,9 +49,7 @@ const routes = [
         component: CPU,
     },
     {
-        path:'/Case',
-        component: Case,
-    },
+
 ];
 
 export default routes;
